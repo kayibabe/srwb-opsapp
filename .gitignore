@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment & secrets
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# Application runtime data (never commit the DB or uploads)
+data/
+uploads/
+
+# Large Excel source files
+excel files/
+
+# Archives
+*.rar
+*.zip
+
+# Screenshots / working images (not deployable assets)
+images/
+
+# Claude AI internal working directory
+.claude/
+
+# Internal operational / debug docs
+SKILL_JS_CRASH_RESOLUTION.md
+
+# OS noise
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
